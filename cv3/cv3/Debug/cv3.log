@@ -1,0 +1,10 @@
+﻿  Hra.cpp
+c:\users\sixta\source\repos\cv3\cv3\hra.cpp(54): error C3867: Objekt::GetX: Nestandardní syntaxe; pomocí '&' vytvořte ukazatel na člen.
+c:\users\sixta\source\repos\cv3\cv3\hra.cpp(54): error C2446: >=: žádný převod z: double na: double (__thiscall Objekt::* )(void) const
+  c:\users\sixta\source\repos\cv3\cv3\hra.cpp(54): note: Neexistuje kontext, ve kterém by byl tento převod možný.
+c:\users\sixta\source\repos\cv3\cv3\hra.cpp(54): error C2446: <=: žádný převod z: double na: double (__thiscall Objekt::* )(void) const
+  c:\users\sixta\source\repos\cv3\cv3\hra.cpp(54): note: Neexistuje kontext, ve kterém by byl tento převod možný.
+c:\users\sixta\source\repos\cv3\cv3\hra.cpp(54): error C3867: Objekt::GetY: Nestandardní syntaxe; pomocí '&' vytvořte ukazatel na člen.
+c:\users\sixta\source\repos\cv3\cv3\hra.cpp(56): error C3867: Objekt::GetId: Nestandardní syntaxe; pomocí '&' vytvořte ukazatel na člen.
+c:\users\sixta\source\repos\cv3\cv3\hra.cpp(56): error C2440: =: nejde převést z: int (__thiscall Objekt::* )(void) const na: int.
+  c:\users\sixta\source\repos\cv3\cv3\hra.cpp(56): note: Neexistuje kontext, ve kterém by byl tento převod možný.
