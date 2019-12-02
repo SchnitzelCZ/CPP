@@ -13,6 +13,9 @@ Hra::Hra()
 
 Hra::~Hra()
 {
+	for (int i = 0; i <= pocetObjektu; i++) {
+		delete objekty[i];
+	}
 	delete[] objekty;
 }
 
@@ -27,15 +30,6 @@ void Hra::vlozObjekt(Objekt * o)
 	if (objekty != nullptr)
 		delete[] objekty;
 	objekty = tempObject;
-
-	/*
-	for (int i = 0; i <= 100; i++) {
-		if (i == pocetObjektu) {
-			objekty[i] = o;
-			break;
-		}
-	}
-	*/
 }
 
 int * Hra::najdiIdStatickychObjektu(double xmin, double xmax, double ymin, double ymax)
