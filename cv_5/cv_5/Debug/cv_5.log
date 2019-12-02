@@ -1,0 +1,4 @@
+﻿  Main.cpp
+c:\users\sixta\source\repos\cv_5\cv_5\main.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\sixta\source\repos\cv_5\cv_5\main.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  cv_5.vcxproj -> C:\Users\sixta\source\repos\cv_5\Debug\cv_5.exe
